@@ -7,6 +7,11 @@
  $ cd dashboard
  $ make npm
 ```
+The git clone fails because branch gridstack no longer exists:
+
+o@nc:~ git clone -b gridstack https://github.com/nextcloud/dashboard.git
+Cloning into 'dashboard'...
+fatal: Remote branch gridstack not found in upstream origin
 
 
 ### How to create a Widget:
